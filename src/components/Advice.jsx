@@ -46,7 +46,7 @@ return(
 </div>
 
 {/* icon dice */}
-<button className="bg-[color:hsl(150,100%,66%)]  w-[12%] p-[.5em] rounded-[50%]  mx-auto absolute inset-x-0  " onClick={()=>{generateAdvice()}}  >
+<button className="bg-[color:hsl(150,100%,66%)]  w-[12%] p-[.5em] rounded-[50%]  mx-auto absolute inset-x-0 hover:shadow-lg hover:shadow-[color:hsl(150,100%,66%)]" onClick={()=>{generateAdvice()}}  >
 <img src={iconDice} alt="icon_dice" className="w-[50%] mx-auto " />
 </button>
 </div>

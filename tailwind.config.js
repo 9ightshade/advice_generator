@@ -16,7 +16,9 @@ font:{
   fontWeight:800
 },
 
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
